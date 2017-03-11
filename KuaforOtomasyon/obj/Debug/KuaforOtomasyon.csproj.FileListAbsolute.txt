@@ -1,0 +1,14 @@
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.csprojResolveAssemblyReference.cache
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.Giris.resources
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.Properties.Resources.resources
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.csproj.GenerateResource.Cache
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.exe.licenses
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\KuaforOtomasyon.exe
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\KuaforOtomasyon.pdb
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.exe
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.pdb
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.Index.resources
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\KuaforOtomasyon.exe.manifest
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\KuaforOtomasyon.application
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.exe.manifest
+c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.application
