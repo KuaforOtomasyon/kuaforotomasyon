@@ -12,6 +12,9 @@ c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtoma
 c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\KuaforOtomasyon.application
 c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.exe.manifest
 c:\users\marco\documents\visual studio 2013\Projects\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.application
+C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.exe
+C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.pdb
+C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.csprojResolveAssemblyReference.cache
 C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.Giris.resources
 C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.Index.resources
 C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.Properties.Resources.resources
