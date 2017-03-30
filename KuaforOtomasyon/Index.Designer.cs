@@ -71,7 +71,8 @@
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
-            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.Islemler = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.IslemAlt = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
@@ -100,13 +101,13 @@
             this.ribbonControl1.MaxItemId = 20;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
+            this.Islemler,
             this.MusteriBilgileriUstMenu,
             this.UrunHizmetUstMenu,
             this.GunOzetiUstMenu,
             this.UcretBilgisiUstMenu,
             this.RandevuUstMenu,
-            this.YardimUstMenu,
-            this.ribbonPage1});
+            this.YardimUstMenu});
             this.ribbonControl1.Size = new System.Drawing.Size(862, 142);
             // 
             // barButtonItem4
@@ -375,10 +376,17 @@
             // 
             this.defaultLookAndFeel1.LookAndFeel.SkinName = "Darkroom";
             // 
-            // ribbonPage1
+            // Islemler
             // 
-            this.ribbonPage1.Name = "ribbonPage1";
-            this.ribbonPage1.Text = "ribbonPage1";
+            this.Islemler.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.IslemAlt});
+            this.Islemler.Name = "Islemler";
+            this.Islemler.Text = "İşlemler";
+            // 
+            // IslemAlt
+            // 
+            this.IslemAlt.Name = "IslemAlt";
+            this.IslemAlt.Text = "Islemler";
             // 
             // Index
             // 
@@ -441,6 +449,7 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem17;
         private DevExpress.XtraBars.BarButtonItem barButtonItem18;
         private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
+        private DevExpress.XtraBars.Ribbon.RibbonPage Islemler;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup IslemAlt;
     }
 }
