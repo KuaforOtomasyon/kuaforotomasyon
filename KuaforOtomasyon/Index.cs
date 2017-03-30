@@ -39,5 +39,10 @@ namespace KuaforOtomasyon
             musteriduzenle.MdiParent = this;
             musteriduzenle.Show();
         }
+
+        private void IndexKapatma(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
