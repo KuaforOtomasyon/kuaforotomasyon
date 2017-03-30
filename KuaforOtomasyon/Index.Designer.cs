@@ -71,6 +71,7 @@
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
+            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
@@ -104,7 +105,8 @@
             this.GunOzetiUstMenu,
             this.UcretBilgisiUstMenu,
             this.RandevuUstMenu,
-            this.YardimUstMenu});
+            this.YardimUstMenu,
+            this.ribbonPage1});
             this.ribbonControl1.Size = new System.Drawing.Size(862, 142);
             // 
             // barButtonItem4
@@ -373,6 +375,11 @@
             // 
             this.defaultLookAndFeel1.LookAndFeel.SkinName = "Darkroom";
             // 
+            // ribbonPage1
+            // 
+            this.ribbonPage1.Name = "ribbonPage1";
+            this.ribbonPage1.Text = "ribbonPage1";
+            // 
             // Index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -434,6 +441,6 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem17;
         private DevExpress.XtraBars.BarButtonItem barButtonItem18;
         private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
-
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
     }
 }

@@ -74,3 +74,5 @@ C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\Kuafor
 C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.application
 C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.exe
 C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.pdb
+C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.exe
+C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.pdb
