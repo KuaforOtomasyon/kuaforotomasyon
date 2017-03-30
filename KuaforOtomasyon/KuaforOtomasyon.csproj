@@ -129,6 +129,9 @@
     <EmbeddedResource Include="Formlar\MusteriDuzenle.resx">
       <DependentUpon>MusteriDuzenle.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\MusteriEkle.resx">
+      <DependentUpon>MusteriEkle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Giris.resx">
       <DependentUpon>Giris.cs</DependentUpon>
     </EmbeddedResource>
@@ -228,18 +231,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\boorderitem_32x32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\boorderitem_32x321.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\boorderitem_32x322.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\boorderitem_16x16.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

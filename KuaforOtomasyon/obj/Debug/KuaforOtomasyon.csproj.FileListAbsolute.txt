@@ -141,9 +141,9 @@ C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\Kuafo
 C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.exe.licenses
 C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.exe.manifest
 C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.application
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\KuaforOtomasyon.exe.config
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.Formlar.MusteriDuzenle.resources
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.dll
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.Linq.dll
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.MySql.dll
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.MySql.Linq.dll
+C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\KuaforOtomasyon.exe.config
+C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.dll
+C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.Linq.dll
+C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.MySql.dll
+C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.MySql.Linq.dll
+C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.Formlar.MusteriEkle.resources

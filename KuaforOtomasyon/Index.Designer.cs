@@ -224,8 +224,7 @@
             // 
             this.IslemlerBtn.Caption = "İşlemler ";
             this.IslemlerBtn.Id = 21;
-            this.IslemlerBtn.LargeGlyph = global::KuaforOtomasyon.Properties.Resources.boorderitem_32x32;
-            this.IslemlerBtn.Name = "IslemlerBtn";
+             this.IslemlerBtn.Name = "IslemlerBtn";
             // 
             // Islemler
             // 
@@ -402,7 +401,6 @@
             // 
             // IslemAlt
             // 
-            this.IslemAlt.Glyph = global::KuaforOtomasyon.Properties.Resources.boorderitem_32x32;
             this.IslemAlt.Name = "IslemAlt";
             this.IslemAlt.Text = "Islemler";
             // 
