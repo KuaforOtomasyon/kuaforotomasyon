@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database Name="kuafor" EntityNamespace="KuaforContext" ContextNamespace="KuaforContext" Class="KuaforDataContext" xmlns:ed="http://devart.com/schemas/EntityDeveloper/1.0" ed:Guid="2b415c82-a8f6-4e2b-ba82-53422329f514" Provider="Devart.Data.MySql.Linq.Provider.MySqlDataProvider, Devart.Data.MySql.Linq" Extended="true" xmlns="http://schemas.devart.com/linqconnect/mapping">
+  <Connection Mode="ConnectionString" ConnectionString="User Id=root;Password=1234;Host=localhost;Database=kuafor;Persist Security Info=True" Provider="Devart.Data.MySql" />
+  <Table Name="kuafor.musteri" Member="Musteris">
+    <Type Name="Musteri" ed:Guid="1273a050-d54e-480f-8ab9-aa04489dce37">
+      <Column Name="musteriId" Member="MusteriId" Type="System.Int32" DbType="INT(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Always" Precision="11" ed:ValidateRequired="true" ed:Guid="682d45cf-290f-43ba-82ad-74e7ed428075" />
+      <Column Name="musteriAdi" Member="MusteriAdi" Type="System.String" DbType="VARCHAR(50) NULL" CanBeNull="true" UpdateCheck="Never" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="false" ed:Guid="9a77bf2e-3b62-470f-b53c-f6527ade6ce4" />
+      <Column Name="musteriSoyadi" Member="MusteriSoyadi" Type="System.String" DbType="VARCHAR(50) NULL" CanBeNull="true" UpdateCheck="Never" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="false" ed:Guid="ab7c374a-4463-4a19-8d1d-ff6d44e70584" />
+      <Column Name="cinsiyet" Member="Cinsiyet" Type="System.String" DbType="ENUM NULL" CanBeNull="true" UpdateCheck="Never" Unicode="true" ed:ValidateRequired="false" ed:Guid="7810a507-5749-437a-bfc8-56e01c0d2b91" />
+      <Column Name="dogumTarihi" Member="DogumTarihi" Type="System.DateTime" DbType="DATETIME NULL" CanBeNull="true" UpdateCheck="Never" ed:ValidateRequired="false" ed:Guid="1b67a186-2efd-4165-8fe7-e0837d969b5c" />
+      <Column Name="dogumYeri" Member="DogumYeri" Type="System.String" DbType="VARCHAR(255) NULL" CanBeNull="true" UpdateCheck="Never" MaxLength="255" Unicode="true" ed:ValidateMaxLength="255" ed:ValidateRequired="false" ed:Guid="d6bc7be0-9eba-4686-9767-c410222c7ab9" />
+      <Column Name="adres" Member="Adres" Type="System.String" DbType="TEXT NULL" CanBeNull="true" UpdateCheck="Never" Unicode="true" ed:ValidateRequired="false" ed:Guid="7beb42a1-fec2-4405-bd1e-d14eb455c0f1" />
+      <Column Name="cepTelefon" Member="CepTelefon" Type="System.String" DbType="VARCHAR(50) NULL" CanBeNull="true" UpdateCheck="Never" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="false" ed:Guid="9ab0b514-3eed-4848-b41f-1c2d7205c6a0" />
+      <Column Name="evTelefon" Member="EvTelefon" Type="System.String" DbType="VARCHAR(50) NULL" CanBeNull="true" UpdateCheck="Never" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="false" ed:Guid="a1fc4401-b710-47b6-ad19-76ad3920b7aa" />
+    </Type>
+  </Table>
+</Database>

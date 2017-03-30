@@ -534,14 +534,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KuaforOtomasyon.exe" size="319488">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KuaforOtomasyon.exe" size="320512">
       <assemblyIdentity name="KuaforOtomasyon" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Vlu1eJQDuJx3JJF78NbSHLkw1F55rk7hHiESyAXhZsw=</dsig:DigestValue>
+        <dsig:DigestValue>kUL2f/ycNbngZ9MN3YbocJA38TjgmERbGsCZocfGJNs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -32,5 +32,12 @@ namespace KuaforOtomasyon
             musteriekle.MdiParent = this;
             musteriekle.Show();
         }
+
+        private void MusteriDuzenlePencere(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            MusteriDuzenle musteriduzenle = new MusteriDuzenle();
+            musteriduzenle.MdiParent = this;
+            musteriduzenle.Show();
+        }
     }
 }
