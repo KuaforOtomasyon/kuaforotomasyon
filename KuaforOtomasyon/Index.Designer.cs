@@ -45,6 +45,8 @@
             this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
+            this.Islemler = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.IslemAlt = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.MusteriBilgileriUstMenu = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.MBYeniKayit = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.MBKayitDuzenle = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -71,8 +73,6 @@
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
-            this.Islemler = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.IslemAlt = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
@@ -116,6 +116,7 @@
             this.barButtonItem4.Id = 3;
             this.barButtonItem4.LargeGlyph = global::KuaforOtomasyon.Properties.Resources.UyeEkleKadin;
             this.barButtonItem4.Name = "barButtonItem4";
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.MusteriEklePencere);
             // 
             // barButtonItem5
             // 
@@ -214,6 +215,18 @@
             this.barButtonItem18.Id = 19;
             this.barButtonItem18.LargeGlyph = global::KuaforOtomasyon.Properties.Resources.randevusil;
             this.barButtonItem18.Name = "barButtonItem18";
+            // 
+            // Islemler
+            // 
+            this.Islemler.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.IslemAlt});
+            this.Islemler.Name = "Islemler";
+            this.Islemler.Text = "İşlemler";
+            // 
+            // IslemAlt
+            // 
+            this.IslemAlt.Name = "IslemAlt";
+            this.IslemAlt.Text = "Islemler";
             // 
             // MusteriBilgileriUstMenu
             // 
@@ -376,18 +389,6 @@
             // 
             this.defaultLookAndFeel1.LookAndFeel.SkinName = "Darkroom";
             // 
-            // Islemler
-            // 
-            this.Islemler.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.IslemAlt});
-            this.Islemler.Name = "Islemler";
-            this.Islemler.Text = "İşlemler";
-            // 
-            // IslemAlt
-            // 
-            this.IslemAlt.Name = "IslemAlt";
-            this.IslemAlt.Text = "Islemler";
-            // 
             // Index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -398,6 +399,7 @@
             this.IsMdiContainer = true;
             this.Name = "Index";
             this.Text = "Kuaför Otomasyon";
+            this.Load += new System.EventHandler(this.IslemlerPencereAcilis);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).EndInit();
             this.ResumeLayout(false);

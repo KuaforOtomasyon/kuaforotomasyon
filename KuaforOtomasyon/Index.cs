@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
+using KuaforOtomasyon.Formlar;
 
 namespace KuaforOtomasyon
 {
@@ -16,6 +17,20 @@ namespace KuaforOtomasyon
         public Index()
         {
             InitializeComponent();
+        }
+
+        public void IslemlerPencereAcilis(object sender, EventArgs e)
+        {
+            Islemler IslemPencere= new Islemler();
+            IslemPencere.MdiParent = this;
+            IslemPencere.Show();
+        }
+
+        private void MusteriEklePencere(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            MusteriEkle musteriekle = new MusteriEkle();
+            musteriekle.MdiParent = this;
+            musteriekle.Show();
         }
     }
 }
