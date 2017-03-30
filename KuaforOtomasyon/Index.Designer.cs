@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
@@ -68,11 +69,11 @@
             this.RRandevuDuzenle = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.RRandevuSil = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.YardimUstMenu = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager();
+            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
-            this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel();
+            this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.IslemAlt = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
@@ -222,10 +223,8 @@
             // IslemlerBtn
             // 
             this.IslemlerBtn.Caption = "İşlemler ";
-            this.IslemlerBtn.Glyph = global::KuaforOtomasyon.Properties.Resources.boorderitem_16x16;
             this.IslemlerBtn.Id = 21;
-            this.IslemlerBtn.LargeGlyph = global::KuaforOtomasyon.Properties.Resources.boorderitem_32x32;
-            this.IslemlerBtn.Name = "IslemlerBtn";
+             this.IslemlerBtn.Name = "IslemlerBtn";
             // 
             // Islemler
             // 
@@ -416,7 +415,7 @@
             this.Name = "Index";
             this.Text = "Kuaför Otomasyon";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.IndexKapatma);
-            this.Load += new System.EventHandler(this.PencereAcilis);
+            this.Load += new System.EventHandler(this.IslemlerPencereAcilis);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).EndInit();
             this.ResumeLayout(false);

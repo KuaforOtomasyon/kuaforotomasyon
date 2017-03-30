@@ -147,10 +147,3 @@ C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devar
 C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.MySql.dll
 C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.MySql.Linq.dll
 C:\Users\MUHSIN\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.Formlar.MusteriEkle.resources
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\KuaforOtomasyon.exe.config
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.dll
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.Linq.dll
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.MySql.dll
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\bin\Debug\Devart.Data.MySql.Linq.dll
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.Formlar.MusteriDuzenle.resources
-C:\Users\Marco\Documents\GitHub\KuaforOtomasyon\KuaforOtomasyon\obj\Debug\KuaforOtomasyon.Formlar.MusteriEkle.resources

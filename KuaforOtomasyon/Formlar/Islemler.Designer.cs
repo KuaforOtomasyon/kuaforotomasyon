@@ -28,32 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraEditors.PanelControl MasaListePanel;
-            MasaListePanel = new DevExpress.XtraEditors.PanelControl();
-            ((System.ComponentModel.ISupportInitialize)(MasaListePanel)).BeginInit();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.SuspendLayout();
             // 
-            // MasaListePanel
+            // simpleButton1
             // 
-            MasaListePanel.Location = new System.Drawing.Point(12, 12);
-            MasaListePanel.Name = "MasaListePanel";
-            MasaListePanel.Size = new System.Drawing.Size(535, 388);
-            MasaListePanel.TabIndex = 0;
+            this.simpleButton1.Location = new System.Drawing.Point(13, 13);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton1.TabIndex = 0;
+            this.simpleButton1.Text = "simpleButton1";
             // 
             // Islemler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1012, 494);
-            this.Controls.Add(MasaListePanel);
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.simpleButton1);
             this.Name = "Islemler";
             this.Text = "Islemler";
-            this.Load += new System.EventHandler(this.IslemlerYuklemeOlay);
-            ((System.ComponentModel.ISupportInitialize)(MasaListePanel)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }

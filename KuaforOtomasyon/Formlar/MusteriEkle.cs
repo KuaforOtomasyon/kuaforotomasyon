@@ -17,5 +17,10 @@ namespace KuaforOtomasyon.Formlar
         {
             InitializeComponent();
         }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
