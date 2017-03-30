@@ -19,11 +19,12 @@ namespace KuaforOtomasyon
             InitializeComponent();
         }
 
-        public void IslemlerPencereAcilis(object sender, EventArgs e)
+        public void PencereAcilis(object sender, EventArgs e)
         {
             Islemler IslemPencere= new Islemler();
             IslemPencere.MdiParent = this;
             IslemPencere.Show();
+            this.WindowState=FormWindowState.Maximized;
         }
 
         private void MusteriEklePencere(object sender, DevExpress.XtraBars.ItemClickEventArgs e)

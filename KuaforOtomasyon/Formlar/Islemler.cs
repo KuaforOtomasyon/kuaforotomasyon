@@ -17,5 +17,11 @@ namespace KuaforOtomasyon.Formlar
         {
             InitializeComponent();
         }
+
+        public void IslemlerYuklemeOlay(object sender, EventArgs e)
+        {
+            this.WindowState=FormWindowState.Maximized;
+        }
+        public void Panel
     }
 }
